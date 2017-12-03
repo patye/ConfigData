@@ -1,6 +1,16 @@
 ---
+spring:
+  profiles: test 
 lucky-word: IrishKutya
 multiple-values:
   - egy
   - kettő
   - három
+---
+spring:
+  profiles: develop 
+lucky-word: Hamster
+multiple-values:
+  - kilenc
+  - tíz
+  - tizenegy
